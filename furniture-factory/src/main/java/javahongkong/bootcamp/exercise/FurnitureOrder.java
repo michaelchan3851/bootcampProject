@@ -12,13 +12,13 @@ public class FurnitureOrder implements FurnitureOrderInterface {
     /**
      * Initialize a new mapping of Furniture types to order quantities.
      */
-    FurnitureOrder( ) {
+    FurnitureOrder() {
         this.ordersOfFurnitures = new HashMap<>();
     }
 
     public void addToOrder(final Furniture type, final int furnitureCount) {
         // TODO: Complete the method
-        this.ordersOfFurnitures.put(type , furnitureCount);
+        this.ordersOfFurnitures.put(type, furnitureCount);
     }
 
     public HashMap<Furniture, Integer> getOrderedFurniture() {
@@ -30,20 +30,20 @@ public class FurnitureOrder implements FurnitureOrderInterface {
         float TotalOrderCost = 0.0f;
         for (Map.Entry<Furniture, Integer> orderOfFurniture : this.ordersOfFurnitures.entrySet()) {
             TotalOrderCost += getTypeCost(orderOfFurniture.getKey());
-            }
+        }
         return TotalOrderCost;
     }
 
     public int getTypeCount(Furniture type) {
         // TODO: Complete the method
-        if(this.ordersOfFurnitures.get(type)==null)
+        if (this.ordersOfFurnitures.get(type) == null)
             return 0;
         return this.ordersOfFurnitures.get(type);
     }
 
     public float getTypeCost(Furniture type) {
         // TODO: Complete the method
-        if(this.ordersOfFurnitures.get(type)==null)
+        if (this.ordersOfFurnitures.get(type) == null)
             return 0;
         return type.cost() * this.ordersOfFurnitures.get(type);
     }
@@ -53,7 +53,7 @@ public class FurnitureOrder implements FurnitureOrderInterface {
         int TotalOrderQuatity = 0;
         for (Map.Entry<Furniture, Integer> orderOfFurniture : this.ordersOfFurnitures.entrySet()) {
             TotalOrderQuatity += getTypeCount(orderOfFurniture.getKey());
-            }
+        }
         return TotalOrderQuatity;
     }
 }

@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="HK"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/hohinchan/github/java/bootcampProject/furniture-factory/target/surefire/surefirebooter-20230907175322739_3.jar /Users/hohinchan/github/java/bootcampProject/furniture-factory/target/surefire 2023-09-07T17-53-22_675-jvmRun1 surefire-20230907175322739_1tmp surefire_0-20230907175322739_2tmp"/>
+    <property name="sun.java.command" value="/Users/hohinchan/github/java/bootcampProject/furniture-factory/target/surefire/surefirebooter-20230907191847901_3.jar /Users/hohinchan/github/java/bootcampProject/furniture-factory/target/surefire 2023-09-07T19-18-47_848-jvmRun1 surefire-20230907191847901_1tmp surefire_0-20230907191847901_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/hohinchan/github/java/bootcampProject/furniture-factory/target/test-classes:/Users/hohinchan/github/java/bootcampProject/furniture-factory/target/classes:/Users/hohinchan/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/hohinchan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/hohinchan/github/java/bootcampProject/furniture-factory/target/surefire/surefirebooter-20230907175322739_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/hohinchan/github/java/bootcampProject/furniture-factory/target/surefire/surefirebooter-20230907191847901_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.1"/>
